@@ -17,7 +17,7 @@
    order: 1;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 650px) {
    .header__logo {
       margin-right: auto;
    }
