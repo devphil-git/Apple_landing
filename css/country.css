@@ -1,0 +1,27 @@
+.country__btn {
+   position: relative;
+   padding-right: 13px;  
+}
+
+.country__btn::after {
+   position: absolute;
+   display: block;
+   content: '';
+   width: 9px;
+   height: 6px;
+   right: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   background: url('../img/arrow-down.svg') no-repeat center;
+}
+
+.country__list {
+   display: none;
+}
+
+@media (min-width: 1024px) {
+   .country__btn {
+      font-size: 20px;
+      line-height: 24px;
+   }
+}

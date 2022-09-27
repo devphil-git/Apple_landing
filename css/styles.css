@@ -1,0 +1,45 @@
+@import 'normalize.css';
+@import 'fonts.css';
+@import 'default.css';
+@import 'header.css';
+@import 'navigation.css';
+@import 'country.css';
+@import 'banner.css';
+@import 'goods.css';
+@import 'features.css';
+@import 'footer.css';
+   
+
+/* mobile first */
+
+.title {
+   margin-bottom: 4px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 19px;
+   text-align: center;
+   color: #000000;
+}
+
+.subtitle {
+   margin-bottom: 24px;
+   font-size: 26px;
+   font-weight: 600;
+   line-height: 31px;
+   text-align: center;
+   color: #000000;
+}
+
+@media (min-width: 1024px) {
+   .title {
+      margin-bottom: 8px;
+      font-size: 20px;
+      line-height: 24px;
+   }
+   
+   .subtitle {
+      margin-bottom: 40px;
+      font-size: 40px;
+      line-height: 48px;
+   }
+}

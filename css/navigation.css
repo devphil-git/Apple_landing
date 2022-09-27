@@ -1,0 +1,28 @@
+.navigation__list {
+   display: flex;
+   gap: 50px;
+}
+
+.navigation__list--footer {
+   margin-bottom: 40px;
+   flex-direction: column;
+   gap: 20px;
+}
+
+@media (min-width: 768px) {
+   .navigation__list--footer {
+      margin-bottom: 0;
+      flex-direction: row;
+      gap: 50px;
+   }
+}
+
+@media (min-width: 1024px) {
+   .navigation__list {
+      gap: 84px;
+   }
+   .navigation__item {
+      font-size: 20px;
+      line-height: 24px;
+   }
+}
