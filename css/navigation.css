@@ -9,6 +9,44 @@
    gap: 20px;
 }
 
+.navigation__list--footer .navigation__link {
+   color: #ffffff;
+}
+
+.navigation__link {
+   position: relative;
+   color: #000000;
+   transition: all 0.3s;
+}
+
+.navigation__link:hover {
+   color: #2238FF;
+}
+
+.navigation__link:active {
+   color: #cccccc;
+}
+
+.navigation__link::before {
+   position: absolute;
+   content: "";
+   left: 0;
+   bottom: -2px;
+   width: 0;
+   height: 1px;
+   background-color: transparent;
+   transition: all 0.3s;
+}
+
+.navigation__link:hover::before {
+   width: 100%;
+   background-color: #2238FF;
+}
+
+.navigation__link:active::before {
+   background-color: #cccccc;
+}
+
 @media (min-width: 768px) {
    .navigation__list--footer {
       margin-bottom: 0;

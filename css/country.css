@@ -53,6 +53,10 @@
    line-height: 17px;
 }
 
+.country__btn:hover {
+   color: #2238FF;
+}
+
 .country__track {
    position: absolute;
    top: 0;

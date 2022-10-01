@@ -124,6 +124,18 @@
    background-color: #2238FF;
    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
    border-radius: 6px;
+   transition: all 0.3s;
+}
+
+.button:hover {
+   color: #000000;
+   background-color: #fff;
+   border: 1px solid #2238FF;
+}
+
+.button:active {
+   background-color: #cccccc;
+   border-color: #cccccc;
 }
 
 .form__submit {
